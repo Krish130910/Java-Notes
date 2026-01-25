@@ -17,6 +17,7 @@
 // 2. Alignment and Padding: You can specify the width and alignment of the output, which is useful for creating tables or aligning text.
 // 3. Precision Control: For floating-point numbers, you can control the number of decimal places displayed.
 // 4. Multiple Variables: You can print multiple variables in a single printf statement using multiple format specifiers.
+
 // Example of Printf with Multiple Variables and Formatting:
 // public class Learning_4 {
 //     public static void main(String[] args) {
