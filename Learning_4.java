@@ -1,42 +1,54 @@
 // JAVA NOTES
 // Printf Statement
 
-// Printf Statement in Java:
 // In Java, the printf statement is used to format and print text to the console.
-// It allows you to control the layout of the output by specifying format specifiers.
-// %[flags][width][.precision][specifier-character]
-// the above is the syntax of printf statement
+// The syntax for the printf statement is as follows:
+// %[flags][width][.precision][Specifier-character]
+// With printf you have to use \n to print in new line otherwise it will print in the same line.
 
-// string name = "John";
-// System.out.printf("Hello, %s!", name); // Output: Hello, John!
-
-// the difference between println and printf is that println automatically adds a new line after printing, whereas printf does not unless you explicitly include a newline character (\n) in the format string.
-// and also printf allows for formatted output using format specifiers.
-// Advantage of Printf over Println:
-// 1. Formatted Output: Printf allows you to format the output in a specific way using format specifiers, making it easier to control the appearance of the output.
-// 2. Alignment and Padding: You can specify the width and alignment of the output, which is useful for creating tables or aligning text.
-// 3. Precision Control: For floating-point numbers, you can control the number of decimal places displayed.
-// 4. Multiple Variables: You can print multiple variables in a single printf statement using multiple format specifiers.
-
-// Example of Printf with Multiple Variables and Formatting:
+// Example of using printf in Java:
 // public class Learning_4 {
 //     public static void main(String[] args) {
-//         String name = "Alice";
-//         int age = 30;
-//         double height = 5.7;
-//         System.out.printf("Name: %s, Age: %d, Height: %.2f feet\n", name, age, height);
+//         String name = "John";
+//         char firstLetter = 'A';
+//         int age = 25;
+//         double gpa = 3.75;
+//         boolean isStudent = true;
+
+//         System.out.printf("hello %s\n", name); // %s is used for strings
+//         System.out.printf("First Letter: %c\n", firstLetter); // %c is used for characters
+//         System.out.printf("Age: %d\n", age); // %d is used for integers
+//         System.out.printf("GPA: %.2f\n", gpa); // %.2f is used for floating-point numbers with 2 decimal places
+//         System.out.printf("Is Student: %b\n", isStudent); // %b is used for boolean values          
 //     }
 // }
-// In this example, %s is used for the string (name), %d for the integer (age), and %.2f for the floating-point number (height) with 2 decimal places.
 
-// You can also use flags, width, and precision to further format the output.
-// Example with Flags, Width, and Precision:
+// you can also format multiple variables in a single printf statement:
 // public class Learning_4 {
 //     public static void main(String[] args) {
-//         double number = 123.456789;
-//         System.out.printf("Formatted Number: %+10.3f\n", number);
+//         String name = "John";
+//         int age = 25;
+//         double gpa = 3.75;
+//         System.out.printf("Name: %s, Age: %d, GPA: %.2f\n", name, age, gpa);
 //     }
 // }
-// In this example, %+10.3f formats the number to always show the sign (+), with a total width of 10 characters, and 3 decimal places.
- 
-// In short printf provides more control over the formatting of the output compared to println, making it a powerful tool for creating well-structured console output.
+
+// precision in floating-point numbers specifies the number of digits to be displayed after the decimal point.
+public class Learning_4 {
+    public static void main(String[] args) {
+        double price1 = 9.99;
+        double price2 = 100.15;
+        double price3 = -54.01;
+        System.out.printf("Price 1: %.1f\n", price1); // 1 digit after decimal
+        System.out.printf("Price 2: %.3f\n", price2); // 3 digits after decimal
+        System.out.printf("Price 3: %.2f\n", price3); // 2 digits after decimal
+    }
+}
+
+// Flags in printf are special characters that modify the output format.
+// "+" flag forces the output to include a plus sign for positive numbers.
+// "," flag adds commas as thousand separators in large numbers.
+// ( flag encloses negative numbers in parentheses instead of using a minus sign.
+// - flag left-justifies the output within the specified width.
+// 0 flag pads the output with leading zeros instead of spaces. 
+// # flag is used with floating-point numbers to ensure that a decimal point is always displayed, even if there are no digits after it.
