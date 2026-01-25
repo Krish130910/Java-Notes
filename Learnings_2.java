@@ -115,7 +115,7 @@
 // x--; // Decrement by 1 using decrement operator
 // in the above both statements will result in x being 4
 
-// Order of Operations: [P-E-N-D-A-S]
+// Order of Operations: [P-E-M-D-A-S]
 // public class Learnings_2 {
 //     public static void main(String[] args) {
 //         int result = 10 + 5 * 2; // Multiplication first, then addition
