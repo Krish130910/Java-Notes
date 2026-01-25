@@ -1,5 +1,5 @@
 // JAVA NOTES
-// Nested If Statements
+// Nested If Statements and Few String Methods
 
 // Nested if statements are if statements placed inside another if statement.
 // They are used to test multiple conditions in a hierarchical manner.
@@ -63,3 +63,61 @@
 // Note: While nested if statements can be useful, excessive nesting can make code harder to read and maintain.
 // It's often better to use logical operators (&&, ||) or switch statements for complex conditions when appropriate.
 // Always strive for clean and understandable code!
+
+
+// String Methods in Java:
+// Strings in Java are objects that represent sequences of characters.
+// Java provides several built-in methods to manipulate and work with strings.
+// Some commonly used string methods include with an example for each:
+// public class Learning_5 {
+//     public static void main(String[] args) {
+//         String name = "John Doe";
+
+//         // 1. length() - returns the length of the string
+//         int length = name.length(); 
+//         System.out.println(length); // Output: 8 
+
+//         // 2. charAt(int index) - returns the character at the specified index
+//         char firstChar = name.charAt(0);
+//         System.out.println(firstChar); // Output: J
+
+//         // 3. indexOf(String str) - returns the index of the first occurrence of the specified substring
+//        int index = name.indexOf("D");
+//        System.out.println(index); // Output: 5
+
+//         // 4. LastIndexOf(String str) - returns the index of the last occurrence of the specified substring
+//         int lastIndex = name.lastIndexOf("o");
+//         System.out.println(lastIndex); // Output: 7
+
+//         // 5. ToUpperCase() - converts the string to uppercase
+//         String upperCaseName = name.toUpperCase();
+//         System.out.println(upperCaseName); // Output: JOHN DOE
+
+//        // 6. ToLowerCase() - converts the string to lowercase
+//         String lowerCaseName = name.toLowerCase();
+//         System.out.println(lowerCaseName); // Output: john doe
+
+//        // 7. Trim() - removes leading and trailing whitespace
+//         String stringWithSpaces = "   Hello World!   ";
+//         String trimmedString = stringWithSpaces.trim();
+//         System.out.println(trimmedString); // Output: Hello World!
+
+//         // 8. Substring(int beginIndex, int endIndex) - returns a substring from the specified begin index to end index
+//         String subString = name.substring(0, 4);
+//         System.out.println(subString); // Output: John
+
+//         // 9. Replace(CharSequence target, CharSequence replacement) - replaces occurrences of the target sequence with the replacement sequence
+//         String replacedString = name.replace("Doe", "Smith");
+//         System.out.println(replacedString); // Output: John Smith
+
+//         // 10. isEmpty() - checks if the string is empty
+//         boolean isEmpty = name.isEmpty();
+//         System.out.println(isEmpty); // Output: false
+//     }
+// }
+
+// These are just a few examples of the many string methods available in Java.
+// You can explore more string methods in the Java documentation to enhance your string manipulation skills.
+// Note: String methods are case-sensitive, so be mindful of the case when using them.
+
+// The Substring method will be discussed in detail in the next lesson.
