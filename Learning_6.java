@@ -1,5 +1,5 @@
 // JAVA NOTES
-// Substring Method
+// Substring Method and Ternary Operator
 
 // Substring method is used to extract a portion of a string based on specified indices.
 // Syntax for substring method:
@@ -45,6 +45,20 @@
 //     }
 // }
 
+// Ternary Operator In java
+// The ternary operator is a shorthand way of writing an if-else statement.
+// It takes three operands: a condition, a value if the condition is true, and a value if the condition is false.
+// Syntax of the ternary operator:
+// condition ? valueIfTrue : valueIfFalse;
+// Basically ternary operator is the short form of if-else statement
 
-
+// Example of using the ternary operator in Java:
+// public class Learning_6 {
+//     public static void main(String[] args) {
+//         int number = 10;
+//         String result = (number % 2 == 0) ? "Even" : "Odd";
+//         System.out.println("The number is " + result); // Output: The number is Even
+//    } 
+// }
+// In this example, we check if a number is even or odd using the ternary operator.
 
