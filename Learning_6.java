@@ -1,5 +1,5 @@
 // JAVA NOTES
-// Substring Method, Ternary Operator and Enhanced switches
+// Substring Method, Ternary Operator, Enhanced switches and logical operators
 
 // Substring method is used to extract a portion of a string based on specified indices.
 // Syntax for substring method:
@@ -102,4 +102,47 @@
 //     }
 // } 
 
+// Logical Operators in Java
+// Logical operators are used to combine multiple boolean expressions or conditions.
+// The main logical operators in Java are:
+// 1. AND (&&): Returns true if both operands are true.
+// 2. OR (||): Returns true if at least one of the operands is true.
+// 3. NOT (!): Returns true if the operand is false, and false if the operand is true.
+
+// Example of AND(&&) logical operator in Java:
+// public class Learning_6 {
+//     public static void main(String[] args) {
+//         int age = 25;
+//         boolean hasID = true;
+//         if (age >= 18 && hasID) {
+//             System.out.println("You are eligible to vote.");
+//         } else {
+//             System.out.println("You are not eligible to vote.");
+//         }
+//     }
+// }
+
+// Example of OR(||) logical operator in Java:
+// public class Learning_6 {
+//     public static void main(String[] args) {
+//         String role = "admin";
+//         if (role.equals("admin") || role.equals("moderator")) {
+//             System.out.println("Access granted.");
+//         } else {
+//             System.out.println("Access denied.");
+//         }
+//     }
+// }
+
+// Example of NOT(!) logical operator in Java:
+// public class Learning_6 {
+//     public static void main(String[] args) {
+//         boolean isRaining = false;
+//         if (!isRaining) {
+//             System.out.println("It's a sunny day!");
+//         } else {
+//             System.out.println("Don't forget your umbrella.");
+//         }    
+//    }
+// }
 
