@@ -1,5 +1,5 @@
 // JAVA NOTES
-// Substring Method and Ternary Operator
+// Substring Method, Ternary Operator and Enhanced switches
 
 // Substring method is used to extract a portion of a string based on specified indices.
 // Syntax for substring method:
@@ -61,4 +61,45 @@
 //    } 
 // }
 // In this example, we check if a number is even or odd using the ternary operator.
+
+// Enhanced Switches in Java
+// Enhanced switches were introduced in Java 12 and provide a more concise way to write switch statements.
+// Example of using enhanced switches in Java:
+// public class Learning_6 {
+//     public static void main(String[] args) {
+//         int day = 3;
+//         String dayName = switch (day) {
+//             case 1 -> "Monday";
+//             case 2 -> "Tuesday";
+//             case 3 -> "Wednesday";
+//             case 4 -> "Thursday";
+//             case 5 -> "Friday";
+//             case 6 -> "Saturday";
+//             case 7 -> "Sunday";
+//             default -> "Invalid day";
+//         };
+//         System.out.println("Day " + day + " is " + dayName); // Output: Day 3 is Wednesday
+//     }
+// }
+
+// other format of enhanced switch
+// import java.util.Scanner;
+// public class Learning_6 {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Enter a day abbreviation (e.g., mon, tue): ");
+//         String day = scanner.nextLine().toLowerCase();
+
+//         String dayName = switch (day) {
+//           case "mon", "tue", "wed", "thu", "fri" -> "Weekday";
+//           case "sat", "sun" -> "Weekend";
+//           default -> "Invalid day"; 
+//         };
+
+//         System.out.println("Day " + day + " is " + dayName); // Output: Day 3 is Wednesday
+    
+//         scanner.close();
+//     }
+// } 
+
 
