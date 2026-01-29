@@ -10,22 +10,28 @@
 // Syntax to declare and create an array:
 // dataType[] arrayName = new dataType[arraySize];
 
-// Example of declaring, creating, and initializing an array in Java:
+// import java.util.Arrays;
 // public class Learning_9 {  
 //     public static void main(String[] args) {  
-//         // Declare and create an array of integers with size 5  
-//         int[] numbers = new int[5];  
+//         // Declare, create, and initialize an array of strings  
+//         String[] fruits = {"Apple", "Banana", "Cherry", "Date", "Elderberry"};   
 
-//         // Initialize the array elements  
-//         numbers[0] = 10;  
-//         numbers[1] = 20;  
-//         numbers[2] = 30;  
-//         numbers[3] = 40;  
-//         numbers[4] = 50;  
+//        fruits[1] = "Mango";
 
-//         // Access and print the array elements  
-//         for (int i = 0; i < numbers.length; i++) {  
-//             System.out.println("Element at index " + i + ": " + numbers[i]);  
-//         }  
-//     }  
+//        int numberOfFruits = fruits.length;
+//        System.out.println("Number of fruits: " + numberOfFruits); // Output: Number of fruits: 5
+
+//       for(int i = 0; i < fruits.length; i++) {
+//           System.out.println("Fruit at index " + i + ": " + fruits[i]);
+//       }
+//        Arrays.sort(fruits);
+//        System.out.println(Arrays.toString(fruits));
+
+//        Arrays.fill(fruits, "Kiwi");
+//        System.out.println(Arrays.toString(fruits));
+//     }
 // }
+// in the above example, we declare, create, and initialize an array of strings called fruits.  
+// We then modify an element, get the length of the array, iterate through the elements using a for loop, sort the array, and fill the array with a specific value using methods from the Arrays class.
+
+
