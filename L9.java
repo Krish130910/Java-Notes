@@ -99,3 +99,7 @@
 //         }
 //     }
 // }
+// Here in the above example, we search for a specific food item ("Pasta") in the foods array.
+// We use a for-each loop to iterate through each element in the array and check if it matches the target food using the equals() method.
+// If a match is found, we set the found flag to true and break out of the loop.
+// Finally, we check the found flag and print whether the target food was found in the array or not.
