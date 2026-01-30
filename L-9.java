@@ -77,3 +77,4 @@
 // 3. We use a for loop to iterate through the array indices and take input for each element using scanner.nextLine().
 // 4. Finally, we print the contents of the array using an enhanced for loop.
 // Note: Always remember to close the scanner object after use to prevent resource leaks.
+
