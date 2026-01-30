@@ -1,5 +1,5 @@
 // JAVA NOTES
-// Arrays, User Input In Arrays
+// Arrays, User Input In Arrays and Searching In Arrays
 
 // Array
 // An array is a data structure that can hold multiple values of the same type.
@@ -78,3 +78,4 @@
 // 4. Finally, we print the contents of the array using an enhanced for loop.
 // Note: Always remember to close the scanner object after use to prevent resource leaks.
 
+// Searching in Arrays
