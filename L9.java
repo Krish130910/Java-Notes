@@ -79,3 +79,23 @@
 // Note: Always remember to close the scanner object after use to prevent resource leaks.
 
 // Searching in Arrays
+// public class L9 {
+//     public static void main(String[] args) {
+//         String[] foods = {"Pizza", "Burger", "Pasta", "Salad", "Sushi"};
+//         String targetFood = "Pasta";
+//         boolean found = false;
+
+//         for(String food : foods) {
+//             if(food.equals(targetFood)) {
+//                 found = true;
+//                 break;
+//             }
+//         }
+
+//         if(found) {
+//             System.out.println(targetFood + " is found in the array.");
+//         } else {
+//             System.out.println(targetFood + " is not found in the array.");
+//         }
+//     }
+// }
