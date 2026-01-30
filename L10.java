@@ -1,5 +1,5 @@
 // JAVA NOTES
-// Varargs (Variable-Length Arguments) in Java and 2d Arrays in detail
+// Varargs (Variable-Length Arguments) in Java and 2d Arrays
 
 // Varargs 
 // it is a feature in Java that allows a method to accept a variable number of arguments of the same type.
