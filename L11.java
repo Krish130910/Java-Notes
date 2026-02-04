@@ -1,5 +1,5 @@
 // JAVA NOTES
-// Object-Oriented Programming (OOP) Concepts, Constructor
+// Object-Oriented Programming (OOP) Concepts, Constructor & Overloaded Constructor
 
 // OOP Concepts\
 // Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to represent data and methods to manipulate that data.
@@ -65,3 +65,41 @@
 //     }
 // }
 // the above code demonstrates the use of constructors in Java to initialize the properties of objects when they are created.
+
+// Overloaded Constructor
+// Constructor Overloading is a technique in Java where a class can have multiple constructors with different parameter lists.
+// This allows for different ways to initialize objects of the class.
+// Example of Overloaded Constructor:
+// class Rectangle {
+//     int length;
+//     int width;
+
+//     // Default constructor
+//     Rectangle() {
+//         this.length = 1; // Default length
+//         this.width = 1;  // Default width
+//     }
+
+//     // Parameterized constructor
+//     Rectangle(int length, int width) {
+//         this.length = length; // Initialize length with provided value
+//         this.width = width;   // Initialize width with provided value
+//     }
+
+//     // Method to calculate area of the rectangle
+//     int area() {
+//         return length * width;
+//     }
+// }
+// public class L11 {
+//     public static void main(String[] args) {
+//         // Creating an object using the default constructor
+//         Rectangle rect1 = new Rectangle();
+//         System.out.println("Area of rect1 (default): " + rect1.area()); // Output: 1
+
+//         // Creating an object using the parameterized constructor
+//         Rectangle rect2 = new Rectangle(5, 10);
+//         System.out.println("Area of rect2 (5x10): " + rect2.area()); // Output: 50
+//     }
+// }
+// the above code demonstrates constructor overloading in Java by defining multiple constructors in the Rectangle class to initialize objects in different ways.
