@@ -1,5 +1,5 @@
 // JAVA NOTES
-// Object-Oriented Programming (OOP) Concepts, Constructor & Overloaded Constructor
+// Object-Oriented Programming (OOP) Concepts, Constructor, Overloaded Constructor & Array of Objects
 
 // OOP Concepts\
 // Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to represent data and methods to manipulate that data.
@@ -103,3 +103,36 @@
 //     }
 // }
 // the above code demonstrates constructor overloading in Java by defining multiple constructors in the Rectangle class to initialize objects in different ways.
+
+// Array of Objects
+// An array of objects is a collection that can hold multiple objects of the same class type.
+// array of objects allows you to manage and manipulate multiple instances of a class efficiently.
+
+// Example of Array of Objects:
+// class Book {
+//     String title;
+//     String author;
+//     int year;
+//     // Constructor to initialize the properties of the Book class
+//     Book(String title, String author, int year) {
+//         this.title = title;
+//         this.author = author;
+//         this.year = year;
+//     }
+// }
+// public class L11 {
+//     public static void main(String[] args) {
+//         // Creating an array to hold 3 Book objects
+//         Book[] library = new Book[3];
+//         // Initializing the Book objects and adding them to the array
+//         library[0] = new Book("To Kill a Mockingbird", "Harper Lee", 1960);
+//         library[1] = new Book("1984", "George Orwell", 1949);
+//         library[2] = new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925);
+//         // Displaying the details of each book in the library
+//         System.out.println("Library Books:");
+//         for (int i = 0; i < library.length; i++) {
+//             System.out.println("Title: " + library[i].title + ", Author: " + library[i].author + ", Year: " + library[i].year);
+//         }
+//     }
+// }
+// the above code demonstrates how to create and use an array of objects in Java by defining a Book class and storing multiple Book objects in an array.
